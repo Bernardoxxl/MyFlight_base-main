@@ -33,8 +33,8 @@ public class App {
 		Aeroporto go = new Aeroporto("GRU", "São Paulo Guarulhos Intl Apt", lat2);
 		Rota r1 = new Rota(f, g, go, a);
 		Rota r2 = new Rota(e, go, g, b);
-		Voo v1 = new Voo(r2, hoje, agora); COMO USAR O LOCAL DATE?
-
+		//Voo v1 = new Voo(r2, hoje, agora); COMO USAR O LOCAL DATE;
+		//beza
 
 		System.out.println(a.toString());
 		System.out.println(b.toString());
